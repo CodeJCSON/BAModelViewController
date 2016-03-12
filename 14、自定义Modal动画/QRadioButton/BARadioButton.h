@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol QRadioButtonDelegate;
+@protocol BARadioButtonDelegate;
 
-@interface QRadioButton : UIButton
+@interface BARadioButton : UIButton
 {
     NSString                        *_groupId;
     BOOL                             _checked;
-    id<QRadioButtonDelegate>         delegate;
+    id<BARadioButtonDelegate>         delegate;
 }
 
-@property(nonatomic, assign)id<QRadioButtonDelegate>   delegate;
+@property(nonatomic, assign)id<BARadioButtonDelegate>   delegate;
 @property(nonatomic, copy, readonly)NSString            *groupId;
 @property(nonatomic, assign)BOOL checked;
 
@@ -25,10 +25,10 @@
 
 @end
 
-@protocol QRadioButtonDelegate <NSObject>
+@protocol BARadioButtonDelegate <NSObject>
 
 @optional
 
-- (void)didSelectedRadioButton:(QRadioButton *)radio groupId:(NSString *)groupId;
+- (void)didSelectedRadioButton:(BARadioButton *)radio groupId:(NSString *)groupId;
 
 @end

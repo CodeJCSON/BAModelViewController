@@ -8,7 +8,7 @@
 
 #import "BAThreeViewController.h"
 #import "BAModal动画/BATransition.h"
-#import "QRadioButton.h"
+#import "BARadioButton.h"
 
 #define KSCREEN_HEIGHT   (CGRectGetHeight(self.view.frame))
 #define KSCREEN_WIDTH    (CGRectGetWidth(self.view.frame))
@@ -101,7 +101,7 @@
     playCountLabel.text = @"播放次数";
     playCountLabel.font = KFontSize(14);
 
-    QRadioButton *ascendButton1 = [[QRadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
+    BARadioButton *ascendButton1 = [[BARadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
     CGRect ascendButton1Frame = CGRectMake(CGRectGetMaxX(playCountLabel.frame) + 20, 0, 80, 44);
     ascendButton1.frame = ascendButton1Frame;
     [ascendButton1 setTitle:@"升序" forState:UIControlStateNormal];
@@ -112,7 +112,7 @@
     [ascendButton1 addTarget:self action:@selector(clickSelectButton:) forControlEvents:UIControlEventTouchUpInside];
     ascendButton1.tag = 1;
     
-    QRadioButton *descendButton1 = [[QRadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
+    BARadioButton *descendButton1 = [[BARadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
     CGRect descendButton1Frame = CGRectMake(CGRectGetMaxX(ascendButton1.frame) + 20, 0, 80, 44);
     descendButton1.frame = descendButton1Frame;
     [descendButton1 setTitle:@"降序" forState:UIControlStateNormal];
@@ -140,7 +140,7 @@
     updateLabel.text = @"更新时间";
     updateLabel.font = KFontSize(14);
     
-    QRadioButton *ascendButton2 = [[QRadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
+    BARadioButton *ascendButton2 = [[BARadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
     CGRect ascendButton2Frame = CGRectMake(CGRectGetMaxX(updateLabel.frame) + 20, 0, 80, 44);
     ascendButton2.frame = ascendButton2Frame;
     [ascendButton2 setTitle:@"升序" forState:UIControlStateNormal];
@@ -152,7 +152,7 @@
     ascendButton2.tag = 3;
 
     
-    QRadioButton *descendButton2 = [[QRadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
+    BARadioButton *descendButton2 = [[BARadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
     CGRect descendButton2Frame = CGRectMake(CGRectGetMaxX(ascendButton2.frame) + 20, 0, 80, 44);
     descendButton2.frame = descendButton2Frame;
     [descendButton2 setTitle:@"降序" forState:UIControlStateNormal];
@@ -178,7 +178,7 @@
     commentLabel.text = @"评论次数";
     commentLabel.font = KFontSize(14);
     
-    QRadioButton *ascendButton3 = [[QRadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
+    BARadioButton *ascendButton3 = [[BARadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
     CGRect ascendButton3Frame = CGRectMake(CGRectGetMaxX(commentLabel.frame) + 20, 0, 80, 44);
     ascendButton3.frame = ascendButton3Frame;
     [ascendButton3 setTitle:@"升序" forState:UIControlStateNormal];
@@ -190,7 +190,7 @@
     ascendButton3.tag = 5;
 
     
-    QRadioButton *descendButton3 = [[QRadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
+    BARadioButton *descendButton3 = [[BARadioButton alloc] initWithDelegate:self groupId:@"groupId1"];
     CGRect descendButton3Frame = CGRectMake(CGRectGetMaxX(ascendButton3.frame) + 20, 0, 80, 44);
     descendButton3.frame = descendButton3Frame;
     [descendButton3 setTitle:@"降序" forState:UIControlStateNormal];

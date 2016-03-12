@@ -1,12 +1,12 @@
 //
-//  EIRadioButton.m
+//  BARadioButton.m
 //  EInsure
 //
 //  Created by ivan on 13-7-9.
 //  Copyright (c) 2013年 ivan. All rights reserved.
 //
 
-#import "QRadioButton.h"
+#import "BARadioButton.h"
 
 #define Q_RADIO_ICON_WH                     (16.0)
 #define Q_ICON_TITLE_MARGIN                 (5.0)
@@ -14,7 +14,7 @@
 
 static NSMutableDictionary *_groupRadioDic = nil;
 
-@implementation QRadioButton
+@implementation BARadioButton
 
 @synthesize delegate = _delegate;
 @synthesize checked  = _checked;
@@ -64,7 +64,7 @@ static NSMutableDictionary *_groupRadioDic = nil;
 - (void)uncheckOtherRadios {
     NSMutableArray *_gRadios = [_groupRadioDic objectForKey:_groupId];
     if (_gRadios.count > 0) {
-        for (QRadioButton *_radio in _gRadios) {
+        for (BARadioButton *_radio in _gRadios) {
             if (_radio.checked && ![_radio isEqual:self]) {
                 _radio.checked = NO;
             }

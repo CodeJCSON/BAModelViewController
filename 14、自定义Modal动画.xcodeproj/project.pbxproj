@@ -24,7 +24,7 @@
 		C40F8AE11C3E825E004E4F53 /* BAThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F8AE01C3E825E004E4F53 /* BAThreeViewController.m */; };
 		C40F8AE21C3E825E004E4F53 /* BAThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F8AE01C3E825E004E4F53 /* BAThreeViewController.m */; };
 		C40F8AE31C3E825E004E4F53 /* BAThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F8AE01C3E825E004E4F53 /* BAThreeViewController.m */; };
-		C4D9E8F91C940A4600D53799 /* QRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D9E8F41C940A4600D53799 /* QRadioButton.m */; };
+		C4D9E8F91C940A4600D53799 /* BARadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D9E8F41C940A4600D53799 /* BARadioButton.m */; };
 		C4D9E8FA1C940A4600D53799 /* radio_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D9E8F51C940A4600D53799 /* radio_checked.png */; };
 		C4D9E8FB1C940A4600D53799 /* radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D9E8F61C940A4600D53799 /* radio_checked@2x.png */; };
 		C4D9E8FC1C940A4600D53799 /* radio_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D9E8F71C940A4600D53799 /* radio_unchecked.png */; };
@@ -80,8 +80,8 @@
 		C40F8ADD1C3E7FB6004E4F53 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		C40F8ADF1C3E825E004E4F53 /* BAThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAThreeViewController.h; sourceTree = "<group>"; };
 		C40F8AE01C3E825E004E4F53 /* BAThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAThreeViewController.m; sourceTree = "<group>"; };
-		C4D9E8F31C940A4600D53799 /* QRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioButton.h; sourceTree = "<group>"; };
-		C4D9E8F41C940A4600D53799 /* QRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioButton.m; sourceTree = "<group>"; };
+		C4D9E8F31C940A4600D53799 /* BARadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARadioButton.h; sourceTree = "<group>"; };
+		C4D9E8F41C940A4600D53799 /* BARadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARadioButton.m; sourceTree = "<group>"; };
 		C4D9E8F51C940A4600D53799 /* radio_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked.png; sourceTree = "<group>"; };
 		C4D9E8F61C940A4600D53799 /* radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_checked@2x.png"; sourceTree = "<group>"; };
 		C4D9E8F71C940A4600D53799 /* radio_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unchecked.png; sourceTree = "<group>"; };
@@ -205,8 +205,8 @@
 		C4D9E8F21C940A4600D53799 /* QRadioButton */ = {
 			isa = PBXGroup;
 			children = (
-				C4D9E8F31C940A4600D53799 /* QRadioButton.h */,
-				C4D9E8F41C940A4600D53799 /* QRadioButton.m */,
+				C4D9E8F31C940A4600D53799 /* BARadioButton.h */,
+				C4D9E8F41C940A4600D53799 /* BARadioButton.m */,
 				C4D9E8F51C940A4600D53799 /* radio_checked.png */,
 				C4D9E8F61C940A4600D53799 /* radio_checked@2x.png */,
 				C4D9E8F71C940A4600D53799 /* radio_unchecked.png */,
@@ -357,7 +357,7 @@
 				C40F8A981C3E7E8E004E4F53 /* main.m in Sources */,
 				C40F8AD11C3E7EC4004E4F53 /* BAAnimatedTransitioning.m in Sources */,
 				C40F8AE11C3E825E004E4F53 /* BAThreeViewController.m in Sources */,
-				C4D9E8F91C940A4600D53799 /* QRadioButton.m in Sources */,
+				C4D9E8F91C940A4600D53799 /* BARadioButton.m in Sources */,
 				C40F8ADE1C3E7FB6004E4F53 /* UIView+Extension.m in Sources */,
 				C4D9E9001C9418A400D53799 /* BASliderViewController.m in Sources */,
 				C40F8AD31C3E7EC4004E4F53 /* BATransition.m in Sources */,
