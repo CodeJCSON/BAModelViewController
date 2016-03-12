@@ -24,8 +24,9 @@
 }
 
 3、示例图：
-![image](https://github.com/boai/BATextAlertView/blob/master/testImage.png)
-![image](https://github.com/boai/BATextAlertView/blob/master/testImage.png)
+
+![image](https://github.com/boai/BAModelViewController/blob/master/firstImage.png)
+![image](https://github.com/boai/BAModelViewController/blob/master/secondImage.png)
 
 
 
