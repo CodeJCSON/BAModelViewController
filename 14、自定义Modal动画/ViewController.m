@@ -42,6 +42,7 @@
     vc.modalPresentationStyle = UIModalPresentationCustom;
     vc.transitioningDelegate = [BATransition sharedtransition];
     
+    // 这里是回调函数
     [vc backSelectIndex:^(NSInteger index) {
         self.backLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)index];
     }];
