@@ -1,9 +1,9 @@
 //
 //  BARadioButton.m
-//  EInsure
+//  14、自定义Modal动画
 //
-//  Created by ivan on 13-7-9.
-//  Copyright (c) 2013年 ivan. All rights reserved.
+//  Created by 博爱之家 on 16/1/7.
+//  Copyright © 2016年 博爱之家. All rights reserved.
 //
 
 #import "BARadioButton.h"
