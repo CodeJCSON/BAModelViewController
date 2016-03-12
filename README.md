@@ -1,4 +1,6 @@
 # BAModelViewController
+自定义modele动画
+
 #1、自定义modele动画可以实现很多推出动画
 具体看效果：
 
